@@ -1,0 +1,44 @@
+.links-container {
+  margin: 0.3rem;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 9px;
+  background: #292d32;
+  box-shadow: 5px 5px 10px #121416, -5px -5px 10px #40464e;
+}
+
+.landing-link,
+.stocksPosts-link,
+.post-link,
+.postings-link {
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.landing-link:hover,
+.stocksPosts-link:hover,
+.post-link:hover,
+.postings-link:hover {
+  cursor: pointer;
+  color: #d6f5f0;
+}
+
+@media only screen and (min-width: 600px) {
+  .links-container {
+    font-size: 20px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
