@@ -54,7 +54,7 @@ const CreatePost = () => {
   return (
     <div className="postsContainer">
       <h2>Create Post</h2>
-      <form actio="submit">
+      <form action="submit">
         <div className="form-row">
           <div className="form-column">
             <input

@@ -4,6 +4,11 @@
   padding: 1rem;
   margin: 1rem;
   text-align: center;
+  margin: 2rem;
+  justify-content: space-evenly;
+  border-radius: 9px;
+  background: #292d32;
+  box-shadow: 5px 5px 10px #121416, -5px -5px 10px #40464e;
 }
 
 .form-column {
