@@ -53,7 +53,7 @@ const CreatePost = () => {
 
   return (
     <div className="postsContainer">
-      <h2>Create Post</h2>
+      <h2 className="createTitle">Create Post</h2>
       <form action="submit">
         <div className="form-row">
           <div className="form-column">
@@ -135,8 +135,10 @@ const CreatePost = () => {
             />
           </div>
         </div>
-        <div onClick={handleSubmit} className="postButton">
-          <button className="postBtn">Post!</button>
+        <div className="postButtonContainer">
+          <p onClick={handleSubmit} className="postBtn">
+            Post!
+          </p>
         </div>
       </form>
     </div>

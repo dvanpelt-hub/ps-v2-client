@@ -2,15 +2,44 @@
   color: white;
   text-decoration: none;
   padding: 1rem;
-  margin: 1rem;
-  text-align: center;
   margin: 2rem;
+  text-align: center;
   justify-content: space-evenly;
   border-radius: 9px;
   background: #292d32;
   box-shadow: 5px 5px 10px #121416, -5px -5px 10px #40464e;
 }
 
+.createTitle {
+  margin: 0.5rem;
+}
+
 .form-column {
   margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.postBtn {
+  border-radius: 50px;
+  background: linear-gradient(145deg, #2c3036, #25292d);
+  box-shadow: 8px 8px 16px #1b1e22, -8px -8px 16px #373c43;
+  padding: 0.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.inputTickerSymbol {
+  width: 7rem;
+}
+
+.valuation,
+.investmentStatus,
+.inputPrice,
+.postedDate {
+  width: 4rem;
+}
+
+.userPost {
+  width: 12rem;
+  height: 6rem;
 }
