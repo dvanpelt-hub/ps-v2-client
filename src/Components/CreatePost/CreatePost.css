@@ -28,6 +28,11 @@
   margin-right: 3rem;
 }
 
+.postBtn:hover {
+  cursor: pointer;
+  color: #d6f5f0;
+}
+
 .inputTickerSymbol {
   width: 7rem;
 }
