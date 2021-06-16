@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import "./CreatePost.css";
 const URL = process.env.REACT_APP_DB_URL;
 
@@ -11,6 +12,7 @@ const CreatePost = () => {
   const [purchase_price, setPurchasePrice] = useState([0]);
   const [username, setUsername] = useState("Test Person");
   const [posted_date, setPostedDate] = useState(2020);
+  const history = useHistory();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -42,7 +44,9 @@ const CreatePost = () => {
             return response.json();
           })
           .then((responseJson) => {
-            console.log(responseJson);
+            alert("Thank you for posting!");
+            history.push("/StocksPosts");
+            return responseJson;
           });
       } catch (error) {
         console.log(error);
